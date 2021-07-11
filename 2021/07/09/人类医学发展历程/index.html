@@ -61,7 +61,7 @@
       fancybox: true,
       pjax: false,
       lazyload: {
-        enable: false,
+        enable: true,
         only_post: 'false',
         loading: '/images/theme/loading.gif'
       },
@@ -172,7 +172,7 @@
       <div class="col-xl-6"><article class="article">
   <div class="wrap">
     <section class="head">
-  <img src="/images/theme/04.jpg" draggable="false">
+  <img   class="lazyload" data-original="/images/theme/02.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
   <div class="head-mask">
     <h1 class="head-title"></h1>
     <div class="head-info">
@@ -290,7 +290,7 @@
         
           <section class="donate">
   <div id="qrcode-donate">
-    <img src="/778/91.jpg">
+    <img   class="lazyload" data-original="/778/91.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" >
   </div>
   <div class="icon">
     <a href="javascript:;" id="alipay"><i class="iconfont iconalipay"></i></a>
